@@ -1,11 +1,12 @@
 @html.extend('layout',function(model){
 
 	@html.block('body',function(model){
-	   <h1>Node on Azure!</h1>
-
+	   <div id="content">Loading...</div>
     });
 
     @html.block('scripts', function(){
-
+        <script src="./js/libs/react.js"></script>
+	    <script src="./js/libs/react-dom.js"></script>
+	    <script src="./js/dist/home.js"></script>
 	})
 })
