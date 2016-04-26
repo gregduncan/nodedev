@@ -1,0 +1,11 @@
+@html.extend('layout',function(model){
+
+	@html.block('body',function(model){
+	   <h1>Node on Azure!</h1>
+
+    });
+
+    @html.block('scripts', function(){
+
+	})
+})
